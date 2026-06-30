@@ -1,0 +1,15 @@
+# data — licensed NT government layers, not redistributable; document sources in README
+data/
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# os
+.DS_Store
+# keep figures and QA outputs tracked (they're derived, small, illustrative)
+!figures/
+
+# unrelated local app + non-portable pip freeze
+app/
+requirements.txt
+100-parts

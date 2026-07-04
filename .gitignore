@@ -21,3 +21,7 @@ app/
 
 # macOS
 .DS_Store
+
+# regenerable heavy sensitivity outputs (duplicate figure + per-hex intermediate)
+analysis/outputs_sensitivity/fig_hotspot_persistence.png
+analysis/outputs_sensitivity/hotspot_persistence.csv

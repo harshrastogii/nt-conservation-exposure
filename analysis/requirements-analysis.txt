@@ -1,0 +1,11 @@
+esda==2.10.0
+geopandas==1.1.4
+libpysal==4.15.0
+mapclassify==2.10.0
+matplotlib==3.10.8
+numpy==2.4.4
+pandas==3.0.2
+pyogrio==0.13.0
+scikit-learn==1.8.0
+scipy==1.17.1
+shapely==2.1.2

@@ -1,0 +1,2 @@
+conv_vs_biorisk_all,n_hexes_touching_class1,conv_vs_biorisk_excl_class1,n_excl_class1,conv_vs_biorisk_3v4_only,class1_total_km2,interpretation
+0.1773,57,0.1452,187,0.1646,77.13,genuine if excl_class1 and 3v4_only remain clearly positive

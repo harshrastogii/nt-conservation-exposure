@@ -25,3 +25,7 @@ app/
 # regenerable heavy sensitivity outputs (duplicate figure + per-hex intermediate)
 analysis/outputs_sensitivity/fig_hotspot_persistence.png
 analysis/outputs_sensitivity/hotspot_persistence.csv
+
+# regenerable heavy sensitivity outputs (duplicate of paper/figures/figS1; per-hex intermediate)
+analysis/outputs_sensitivity/fig_hotspot_persistence.png
+analysis/outputs_sensitivity/hotspot_persistence.csv

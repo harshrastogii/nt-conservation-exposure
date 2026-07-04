@@ -20,7 +20,7 @@ construction variants) and a construction-sensitive fringe (860 hexes).
 - pipeline_build/diagnostics/   One-off data-inspection helpers (provenance)
 - figures/          Component-layer figures (convertibility, significance, etc.)
 - docs/             CHANGELOG and project documentation
-- data/             Input layers (licensed NT/Aus Gov data; not redistributed)
+- data/             Input layers (derived analysis inputs (CC BY 4.0, tracked); raw sources not tracked)
 
 ## Reproduce the analysis
 
@@ -38,8 +38,8 @@ analysis/outputs_*. Reference list and target-journal formatting are pending.
 
 ## Data availability
 
-Input spatial layers are open NT and Australian Government data (licensed; not redistributed
-here). Analysis code is released under the terms in LICENSE_CODE.txt.
+The two derived analysis inputs (hex_master.gpkg, roper_intersection.gpkg) are tracked under
+CC BY 4.0 with attribution to the NT Government (see below). Raw source layers are large and reproducible and are not tracked. Analysis code: LICENSE_CODE.txt.
 
 ## Validation benchmark
 

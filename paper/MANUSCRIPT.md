@@ -322,3 +322,5 @@ open-data / surrogate biodiversity proxies; sensitivity and uncertainty in conse
 prioritisation; Moran's I (Moran 1950); effective sample size (Clifford, Richardson & Hémon
 1989); Cohen's weighted kappa (Cohen 1968). Placeholders flagged for co-author input — see
 change log.]*
+
+**Figure S1.** Territory-wide map of hotspot persistence: fraction of 30 construction variants ranking each hex in the top priority decile. Regenerated from the frozen pipeline (analysis/sensitivity_analysis.py).

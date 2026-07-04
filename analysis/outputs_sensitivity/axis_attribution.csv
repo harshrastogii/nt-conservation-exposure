@@ -1,0 +1,4 @@
+axis,mean_spearman,min_spearman,n_pairs
+sig,0.9501,0.8059,60
+w,0.9788,0.9356,30
+prot,0.96,0.9261,15

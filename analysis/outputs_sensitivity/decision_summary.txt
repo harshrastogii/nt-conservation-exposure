@@ -1,0 +1,24 @@
+STEP 1 — SENSITIVITY & RANK-STABILITY  (evidence, not yet locked)
+================================================================
+hexes                         : 16229
+variants (defensible)         : 30
+baseline (current provisional): max|equal|moderator
+
+RANK-STABILITY (full-surface Spearman across variants)
+  min pairwise Spearman       : 0.7414
+  mean pairwise Spearman      : 0.9308
+
+HOTSPOT PERSISTENCE
+  top-10% baseline hexes also 'always-hotspot' across ALL variants : 58.3%
+  top-5%  baseline hexes also 'always-hotspot' across ALL variants : 44.5%
+  worst-case Jaccard vs baseline (top-10%): 0.515 (w70_socs|sig_up|moderator)
+  best-case  Jaccard vs baseline (top-10%): 1.000 (max|equal|moderator)
+
+PRE-REGISTERED VERDICT
+  thresholds: STABLE if persistence>=80% AND minSpearman>=0.90;
+              UNSTABLE if persistence<60% OR minSpearman<0.75; else MIXED
+  ==> B_UNSTABLE
+
+RECOMMENDATION (to be locked): priorities are SENSITIVE to construction choices.
+  Do NOT present a single authoritative surface. Report the fragility as the finding,
+  attribute which choice drives it, and PROMOTE MAUP (Step 4) to essential.

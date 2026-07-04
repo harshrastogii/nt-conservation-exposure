@@ -10,7 +10,7 @@
 - Framed Introduction around the tested claim (does the significance proxy reproduce expert
   priorities?) so the negative result is the paper's spine, not a footnote.
 - Reorganised repo: `paper/` (manuscript+figures), `analysis/` (frozen scripts+outputs),
-  `docs/`. Added MIT-style code license note; input data remain licensed/not redistributed.
+  `docs/`. Added MIT-style code license note; the two derived analysis inputs are tracked under CC BY 4.0; raw sources remain untracked.
 
 ## Outstanding (require co-author/supervisor input)
 - Full reference list: only the benchmark (Buckley et al. 2024) is complete; ~10 standard

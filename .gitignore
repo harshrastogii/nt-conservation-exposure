@@ -1,5 +1,8 @@
-# data — licensed NT government layers, not redistributable; document sources in README
+# data/ — raw licensed source layers are large and reproducible; not tracked.
+# The two DERIVED analysis inputs ARE tracked (CC BY 4.0, attributed): see !exceptions below.
 data/
+!data/hex_master.gpkg
+!data/roper_intersection.gpkg
 # python
 __pycache__/
 *.pyc

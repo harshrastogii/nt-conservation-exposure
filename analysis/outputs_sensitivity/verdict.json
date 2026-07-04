@@ -1,0 +1,11 @@
+{
+  "verdict": "B_UNSTABLE",
+  "persistence_top10": 0.5828712261244609,
+  "persistence_top05": 0.4445812807881773,
+  "min_spearman": 0.7413620671428207,
+  "mean_spearman": 0.9308366664098455,
+  "n_variants": 30,
+  "n_hex": 16229,
+  "baseline": "max|equal|moderator",
+  "seed": 42
+}

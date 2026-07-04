@@ -1,0 +1,6 @@
+sig_rule,mean_spearman_vs_others
+max,0.9402
+mean,0.9386
+w70_socs,0.921
+w70_land,0.939
+pctnorm_mean,0.8846

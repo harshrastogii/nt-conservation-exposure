@@ -39,7 +39,7 @@ IMPLEMENTATION DECISIONS (documented; none change the scientific conclusion):
       (n=244) 5,000x. Spatial autocorrelation is NOT corrected here (that is Step-2);
       CIs are therefore optimistic and this is stated.
 
-READS  /mnt/user-data/uploads/hex_master.gpkg, /mnt/user-data/uploads/roper_intersection.gpkg
+READS  data/hex_master.gpkg, data/roper_intersection.gpkg
 WRITES outputs_roper/  (tables, confusion matrix, decomposition, bootstrap, summary, verdict.json)
 """
 import os, json, itertools
@@ -47,8 +47,8 @@ import numpy as np, pandas as pd, geopandas as gpd
 from scipy.stats import spearmanr
 
 OUT = "outputs_roper"; os.makedirs(OUT, exist_ok=True)
-HEX = "/mnt/user-data/uploads/hex_master.gpkg"
-ROP = "/mnt/user-data/uploads/roper_intersection.gpkg"
+HEX = "data/hex_master.gpkg"
+ROP = "data/roper_intersection.gpkg"
 SEED = 42; rng = np.random.default_rng(SEED)
 
 # ----------------------------------------------------------------------

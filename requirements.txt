@@ -1,0 +1,12 @@
+# Reproduces the frozen analysis pipeline (analysis/). Python 3.12+.
+geopandas==1.1.4
+shapely==2.1.2
+pyogrio==0.13.0
+pandas==3.0.2
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+libpysal==4.15.0
+esda==2.10.0
+matplotlib==3.10.8
+mapclassify==2.10.0

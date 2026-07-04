@@ -23,7 +23,7 @@ pip install -r requirements-analysis.txt
 ./run_all.sh path/to/hex_master.gpkg path/to/roper_intersection.gpkg
 ```
 Seeds fixed at 42. `roper_validation.py` and `spatial_correction.py` currently read inputs
-from `/mnt/user-data/uploads/`; edit the paths at the top of each if relocating.
+from `data/`; edit the paths at the top of each if relocating.
 
 ## Headline results (all traceable)
 - **Sensitivity:** min pairwise Spearman 0.741, mean 0.931; top-decile persistence 58.3%

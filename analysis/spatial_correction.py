@@ -17,7 +17,7 @@ METHODS
   3. Dutilleul's modified t-test (via effective sample size from spatial cross-
      correlation) for the primary Spearman, as a second, independent correction.
 
-READS   /mnt/user-data/uploads/hex_master.gpkg, roper_intersection.gpkg
+READS   data/hex_master.gpkg, roper_intersection.gpkg
 WRITES  outputs_roper/spatial_correction.{txt,json}
 """
 import os, json, numpy as np, pandas as pd, geopandas as gpd
@@ -29,10 +29,10 @@ warnings.filterwarnings("ignore")
 OUT="outputs_roper"; os.makedirs(OUT,exist_ok=True); SEED=42; rng=np.random.default_rng(SEED)
 
 # --- rebuild the 244-hex validated frame with geometry (identical logic to validation) ---
-hexes=gpd.read_file("/mnt/user-data/uploads/hex_master.gpkg").to_crs(3577)
+hexes=gpd.read_file("data/hex_master.gpkg").to_crs(3577)
 for c in ["conv_score","sig_socs","sig_landsys","prot_frac"]: hexes[c]=hexes[c].fillna(0)
 hexes["hex_area_km2"]=hexes.area/1e6
-roper=gpd.read_file("/mnt/user-data/uploads/roper_intersection.gpkg").to_crs(3577)
+roper=gpd.read_file("data/roper_intersection.gpkg").to_crs(3577)
 if (~roper.is_valid).any(): roper["geometry"]=roper.buffer(0)
 ov=gpd.overlay(hexes[["hex_id","hex_area_km2","geometry"]], roper[["BIORISK","geometry"]],
                how="intersection", keep_geom_type=True); ov["piece_km2"]=ov.area/1e6

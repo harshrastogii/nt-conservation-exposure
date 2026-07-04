@@ -11,5 +11,10 @@ __pycache__/
 
 # unrelated local app + non-portable pip freeze
 app/
-requirements.txt
 100-parts
+
+# local unrelated app
+app/
+
+# macOS
+.DS_Store
